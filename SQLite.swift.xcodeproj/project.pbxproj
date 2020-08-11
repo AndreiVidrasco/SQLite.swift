@@ -910,9 +910,9 @@
       "OBJ_65" = {
          isa = "PBXGroup";
          children = (
-            "SQLite.swift::SQLiteTests::Product",
+            "SQLite.swift::SQLiteSwift::Product",
             "SQLite.swift::SQLiteObjc::Product",
-            "SQLite.swift::SQLiteSwift::Product"
+            "SQLite.swift::SQLiteTests::Product"
          );
          name = "Products";
          path = "";
@@ -986,10 +986,8 @@
                "4",
                "-I",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
-               "-target",
-               "x86_64-apple-macosx10.10",
                "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk",
                "-package-description-version",
                "4.0.0"
             );
@@ -1017,10 +1015,8 @@
                "4",
                "-I",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
-               "-target",
-               "x86_64-apple-macosx10.10",
                "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk",
                "-package-description-version",
                "4.0.0"
             );
